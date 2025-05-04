@@ -1,0 +1,41 @@
+mean: numpy.mean
+median: numpy.median
+mode: scipy.stats.mode
+standard deviation: numpy.std
+percentile: numpy.percentile
+random data distribution: numpy.random.uniform
+random normal distribution: numpy.random.normal
+histogram: matplotlib.pyplot.hist
+scatter plot: matplotlib.pyplot.scatter
+linear regression: scipy.stats.linregress
+polynomial regression: numpy.poly1d, numpy.polyfit
+equi-distant points between 2 values: numpy.linspace
+Pearson-R value: scipy.stats.pearsonr
+dict reader from csv: csv.DictReader
+reading a csv file: pandas.read_csv
+convert list into numpy array: np.array
+multiple linear regression: sklearn.linear_model.LinearRegression
+scaling data: sklearn.preprocessing.StandardScaler
+decision tree: sklearn.tree
+confusion matrix: sklearn.metrics
+linkage data in hierarchical clustering: scipy.cluster.hierarchy.linkage
+dendrogram: scipy.cluster.hierarchy.dendrogram
+agglomerative clustering on graph: sklearn.cluster.AgglomerativeClustering
+logistic regression: sklearn.linear_model.LogisticRegression
+return e^x: numpy.exp
+one hot encoding: pandas.get_dummies
+k-means clustering: sklearn.cluster.KMeans
+do a train/test split: sklearn.model_selection.train_test_split
+calculate accuracy score: sklearn.metrics.accuracy_score
+bagging classifier: sklearn.ensemble.BaggingClassifier
+get dummy data: sklearn.datasets
+cross validation score: sklearn.model_selection.cross_val_score
+k-folds cross validation: sklearn.model_selection.KFold
+stratified K-folds cross validation: sklearn.model_selection.StratifiedKFold
+leave-one-out cross validation: sklearn.model_selection.LeaveOneOut
+leave-P-out cross validation: sklearn.model_selection.LeavePOut
+shuffle-split cross validation: sklearn.model_selection.ShuffleSplit
+roc curve: sklearn.metrics.roc_curve
+roc auc score: sklearn.metrics.roc_auc_score
+k-nearest neighbors classifier: sklearn.neighbors.KNeighborsClassifier
+k-nearest neighbors regressor: sklearn.neighbors.KNeighborsRegressor~`
