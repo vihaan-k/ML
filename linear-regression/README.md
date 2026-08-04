@@ -73,8 +73,12 @@ $$R^2 = r^2$$
 
 ## 🚀 How to Run
 
-Ensure your virtual environment is active and run:
+### 1. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-```bash
-python linear_regression.py
-```
+### 2. Run the script
+   ```bash
+   python linear-regression/linear-regression.py
+   ```
