@@ -49,8 +49,8 @@ class NearestNeighborRegressor(NearestNeighborClassifier):
         return np.mean(sorted_neighbors[:, 1])
 
 knn = NearestNeighborClassifier(k=4)
-x1 = [4, 5, 2, 4]
-x2 = [21, 19, 60, 17]
+x1 = [4, 5, 10, 4]
+x2 = [21, 19, 24, 17]
 X = list(zip(x1, x2))
 y = [1, 0, 1, 0]
 
