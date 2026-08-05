@@ -47,7 +47,7 @@ $$P_p = x_{\left\lfloor k\right\rfloor} + (k-\left\lfloor k\right\rfloor)(x_{\le
 ---
 
 ## Code Example
-The complete Python implementation can be found in [`basic-measures.py`](./basic_measures.py).
+The complete Python implementation can be found in [`basic_measures.py`](./basic_measures.py).
 
 ## 🚀 How to Run
 
