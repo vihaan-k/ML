@@ -27,7 +27,7 @@ The middle value when the dataset is ordered $x_{1} \le x_{2} \le \ldots \le x_{
 ### 4. Standard Deviation ($\sigma$)
 A measure of the dispersion or spread of the data relative to the mean:
 
-$$\sigma = \sqrt{\frac{1}{n}\sum_{i=1}^{n} (x_i - \mu)^2}$$
+$$\sigma=\sqrt{\frac{1}{n}\sum_{i=1}^n (x_i-\mu)^2}$$
 
 ### 5. Variance ($\sigma^2$)
 The average of the squared differences from the mean:
@@ -40,11 +40,9 @@ The difference between the maximum and minimum values in the dataset:
 $$R = \max(X) - \min(X)$$
 
 ### 7. Percentile ($P_p$)
-The value below which a given percentage ($p\%$) of observations fall. For a given percentile $p \in [0, 100]$:
+The value below which a given percentage ($p\%$) of observations fall. For an ordered dataset $x_1 \le x_2 \le \ldots \le x_n$ and for a given percentile $p \in [0, 100]$:
 
-$$P_p = \text{value at rank } k = 1 + \frac{p}{100}(n - 1)$$
-
-*(Interpolation is used if $k$ is not an integer).*
+$$P_p = x_{\left\lfloor k\right\rfloor} + (k-\left\lfloor k\right\rfloor)(x_{\left\lfloor k\right\rfloor+1}-x_{\left\lfloor k\right\rfloor}) \text{ such that }k = 1+\frac{p}{100}(n - 1)$$
 
 ---
 
