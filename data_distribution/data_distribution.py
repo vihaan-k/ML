@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Array of 500 random floats between 0 and 500
+# Array of 500 random floats between 0 and 5
 a = np.random.uniform(0, 5, 500) 
 
 '''Array of 100000 random floats with an approximate normal distribution (bell curve) 

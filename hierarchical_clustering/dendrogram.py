@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from scipy.cluster.hierarchy import dendrogram, linkage
 
-x = [4, 5, 10, 4, 3, 11, 14 , 6, 10, 12]
+x = [4, 5, 10, 4, 3, 11, 14, 6, 10, 12]
 y = [21, 19, 24, 17, 16, 25, 24, 22, 21, 21]
 
 data = list(zip(x, y))
@@ -11,7 +11,7 @@ dendrogram(linkage_data)
 
 '''Euclidean distance: Distance between 2 points on a plane (using pythagorean theorem).
 
-Ward\'s linkage method: Each points starts off as its own cluster. Then, the 2 clusters with
+Ward\'s linkage method: Each point starts off as its own cluster. Then, the 2 clusters with
 the lowest increase in variance are merged.
 
 Increase in variance:
