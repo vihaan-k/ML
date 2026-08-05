@@ -76,11 +76,11 @@ The complete Python implementation can be found in [`linear_regression.py`](./li
 ## 🚀 How to Run
 
 ### 1. Install dependencies
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
 ### 2. Run the script
-   ```bash
-   python linear_regression/linear_regression.py
-   ```
+```bash
+python linear_regression/linear_regression.py
+```

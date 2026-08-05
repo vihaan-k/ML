@@ -22,7 +22,7 @@ A normal distribution is symmetric about its mean ($\mu$), meaning data near the
 
 The probability density function (PDF) of a normal distribution is defined as:
 
-$$y = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}$$
+$$f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}$$
 
 The probability $P$ that an observation $X$ falls within $k$ standard deviations ($\sigma$) of the mean ($\mu$) is given by the integral:
 
