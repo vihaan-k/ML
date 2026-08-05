@@ -47,35 +47,7 @@ $$P_p = x_{\left\lfloor k\right\rfloor} + (k-\left\lfloor k\right\rfloor)(x_{\le
 ---
 
 ## Code Example
-
-```python
-import numpy as np
-from scipy import stats
-
-# Dataset
-speed = [99, 86, 87, 88, 111, 86, 103, 87, 94, 78, 77, 85, 86]
-
-# Calculate statistics
-mean_val = np.mean(speed)
-median_val = np.median(speed)
-mode_res = stats.mode(speed)
-std_val = np.std(speed)
-var_val = np.var(speed)  # or np.std(speed)**2
-range_val = np.ptp(speed)  # Peak-to-peak (max - min)
-p75 = np.percentile(speed, 75)
-p90 = np.percentile(speed, 90)
-
-# Display results
-print(f"Mean: {mean_val:.2f}")
-print(f"Median: {median_val}")
-print(f"Mode: {mode_res.mode}")
-print(f"Frequency of mode: {mode_res.count}")
-print(f"Standard deviation: {std_val:.2f}")
-print(f"Variance: {var_val:.2f}")
-print(f"Range: {range_val}")
-print(f"75th percentile: {p75}")
-print(f"90th percentile: {p90}")
-```
+The complete Python implementation can be found in [`basic-measures.py`](./basic-measures.py).
 
 ## 🚀 How to Run
 
