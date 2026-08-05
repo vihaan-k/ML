@@ -80,5 +80,5 @@ $$R^2 = r^2$$
 
 ### 2. Run the script
    ```bash
-   python linear-regression/linear-regression.py
+   python linear_regression/linear_regression.py
    ```
