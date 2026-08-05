@@ -51,12 +51,12 @@ The complete Python implementation can be found in [`basic_measures.py`](./basic
 
 ## 🚀 How to Run
 
-1. **Install dependencies:**
+### 1. Install dependencies
    ```bash
    pip install -r requirements.txt
    ```
 
-2. **Run the script:**
+### 2. Run the script
    ```bash
    python basic_measures.py
    ```
