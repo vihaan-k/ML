@@ -70,7 +70,7 @@ $$R^2 = r^2$$
 > ```
 
 ---
-## Code Example
+## 💻 Source Code
 The complete Python implementation can be found in [`linear_regression.py`](./linear_regression.py).
 
 ## 🚀 How to Run

@@ -47,7 +47,7 @@ matplotlib.pyplot.hist(array, 10)
 
 ---
 
-## Code Example
+## 💻 Source Code
 The complete Python implementation can be found in [`data_distribution.py`](./data_distribution.py).
 
 ## 🚀 How to Run
