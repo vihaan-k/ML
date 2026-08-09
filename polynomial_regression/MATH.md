@@ -12,13 +12,15 @@ Given $n$ input values $x_1, x_2, \dots, x_n$ and their corresponding true targe
 
 We structure our dataset, predictions, and target values into matrix form:
 
-* **Design Matrix ($X \in \mathbb{R}^{n \times (k+1)}$):**  
+* **Design Matrix ($X \in \mathbb{R}^{n \times (k+1)}$):**
+```math
   $$X = \begin{bmatrix}
   1 & x_1 & x_1^2 & \dots & x_1^k \\
   1 & x_2 & x_2^2 & \dots & x_2^k \\
   \vdots & \vdots & \vdots & \ddots & \vdots \\
   1 & x_n & x_n^2 & \dots & x_n^k
   \end{bmatrix} \quad \text{where } x_{ij} = x_i^{j-1} \text{ for } j \in \{1, \dots, k+1\}$$
+```
 
 * **Coefficient Vector ($A \in \mathbb{R}^{(k+1) \times 1}$):**  
   $$A = \begin{bmatrix} a_0 \\ a_1 \\ a_2 \\ \vdots \\ a_k \end{bmatrix}$$
