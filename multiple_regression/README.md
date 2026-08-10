@@ -1,12 +1,12 @@
-# Multiple Regression
+# Multiple Linear Regression
 
-A Python implementation of Multiple Regression using Scikit-learn and Pandas to analyze and model linear relationships between multiple input features and a target variable.
+A Python implementation of Multiple Linear Regression using Scikit-learn and Pandas to analyze and model linear relationships between multiple input features and a target variable.
 
 ---
 
 ## 📌 Overview
 
-Multiple Regression models the relationship between $k$ independent variables $x_j$ (where $j \in \{1, \dots, k\}$) and a dependent variable $y$ as a linear combination of the inputs. Given $n$ sample observations, the algorithm calculates the optimal coefficients for each input feature to minimize prediction error on the target variable.
+Multiple Linear Regression models the relationship between $k$ independent variables $x_j$ (where $j \in \{1, \dots, k\}$) and a dependent variable $y$ as a linear combination of the inputs. Given $n$ sample observations, the algorithm calculates the optimal coefficients for each input feature to minimize prediction error on the target variable.
 
 ---
 
