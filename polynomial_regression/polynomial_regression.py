@@ -19,6 +19,7 @@ plt.plot(x_graph, func(x_graph)) # Trendline of function
 
 print("R:", pearsonr(y, func(x)).statistic) # R-value of the y points and the y values of the function
 print("R²:", pearsonr(y, func(x)).statistic**2) # Standard R^2 value
-print("Adjusted R²:", 1 - (1 - pearsonr(y, func(x)).statistic**2) * (len(y) - 1) / (len(y) - degree - 1)) # Adjusted R^2 value
+print("Adjusted R²:", 1 - (1 - pearsonr(y, func(x)).statistic**2) * 
+      (len(y) - 1) / (len(y) - degree - 1)) # Adjusted R^2 value
 
 plt.show()
