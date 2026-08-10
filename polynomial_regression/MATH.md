@@ -22,12 +22,15 @@ We structure our dataset, predictions, and target values into matrix form:
   \end{bmatrix} \quad \text{where } x_{ij} = x_i^{j-1} \text{ for } j \in \{1, \dots, k+1\}$$
 ```
 
-* **Coefficient Vector ($A \in \mathbb{R}^{(k+1) \times 1}$):**  
+* **Coefficient Vector ($A \in \mathbb{R}^{(k+1) \times 1}$):**
+```math  
   $$A = \begin{bmatrix} a_0 \\ a_1 \\ a_2 \\ \vdots \\ a_k \end{bmatrix}$$
+```
 
 * **Target Vector ($Y \in \mathbb{R}^{n \times 1}$) and Predictions ($\hat{Y} \in \mathbb{R}^{n \times 1}$):**  
+```math
   $$Y = \begin{bmatrix} y_1 \\ y_2 \\ \vdots \\ y_n \end{bmatrix}, \quad \hat{Y} = XA = \begin{bmatrix} \hat{y}_1 \\ \hat{y}_2 \\ \vdots \\ \hat{y}_n \end{bmatrix}$$
-
+```
 ---
 
 ## 2. Defining the Cost Function (SSE)
